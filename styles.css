@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #8B4513; /* Text color */
+    background-color: darkgoldenrod; /* Darkgoldenrod background color for the entire page */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #f3e5ab; /* Creamy background color */
+    color: #8B4513; /* Dark text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.bg-creamy {
+    background-color: #f3e5ab; /* Creamy background color */
+}
+
+.card {
+    background-color: #F5F5DC; /* Creamy background color for cards */
+    color: darkgoldenrod; /* Darkgoldenrod text color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f3e5ab; 
+    color: #333; 
+    padding: 20px 0;
+    text-align: center;
+}
+.a{
+    text-decoration: none;
+    color:#8B4513 ;
+    
+}
+
+img {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.icon {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    vertical-align: middle; 
+    margin-right: 10px;
+}
+.card-link{
+    text-decoration: none;
+}
+#my-projects .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    white-space: nowrap;
+    overflow-x: auto; /
+}
+
+#my-projects .my-card {
+    width: calc(33.33% - 20px); 
+    margin: 0 10px;
+    display: inline-block; 
+    vertical-align: top; 
+    background-color: #F5F5DC; 
+    color: darkgoldenrod; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#my-projects .my-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#my-projects .my-card-content {
+    padding: 20px;
+    max-height: 300px;
+    overflow: auto; 
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    overflow: hidden;
+}
+
+#my-projects .my-card-content p {
+    white-space: normal; 
+}
+
